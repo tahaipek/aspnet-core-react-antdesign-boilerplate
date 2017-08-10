@@ -31,3 +31,5 @@ gulp compile
 gulp recompile
 
 ```
+
+![aspnet-core-react-antdesign-boilerplate](https://raw.githubusercontent.com/tahaipek/aspnet-core-react-antdesign-boilerplate/master/Preview.png)
