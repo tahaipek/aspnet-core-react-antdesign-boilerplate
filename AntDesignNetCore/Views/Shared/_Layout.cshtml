@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - AntDesignNetCore</title>
+
+    <link rel="stylesheet" href="~/output/styles/antd.min.css" />
+    <link rel="stylesheet" href="~/Site.css" />
+
+</head>
+<body>
+    @RenderBody()
+
+    
+    <script src="~/output/scripts/vendor.js" asp-append-version="true"></script>
+
+    <script src="~/output/scripts/antd.min.js"></script>
+    <script src="~/output/scripts/antd-with-locales.min.js"></script>
+
+    <script src="~/output/scripts/app.js" asp-append-version="true"></script>
+
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
